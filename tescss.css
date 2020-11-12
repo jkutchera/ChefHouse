@@ -1,0 +1,130 @@
+.navigation {
+    background-color: black;
+    overflow: hidden
+}
+
+.navigation a {
+    float: left;
+    color: black;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a:hover{
+    background-color: darkgrey;
+    color: black;
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: "Inconsolata", sans-serif;
+    background-color: black;
+}
+
+
+.parallax { 
+  opacity: 0.7;
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body > .container{
+    padding-top:70px;
+    padding-bottom:70px;
+    color: white;
+}
+
+#h1{
+    padding-bottom: 20px;
+}
+
+#section2 > ul > li{
+    width: 50%;
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+#section2 > a {
+    color: black;
+}
+
+#section2 > a:hover {
+    color: green;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: auto;
+}
+
+form > *{
+    margin-bottom: 15px;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: auto;
+}
+
+.parallax-top{
+    background-image: url("https://www.thenationalnews.com/image/policy:1.884982:1562830908/RM_20190703_DESICHINESE_20.jpg?f=16x9&w=1200&$p$f$w=dfb357e");
+}
+
+.parallax-middle{
+    background-image: url("https://www.bluefox.travel/paris/blog/wp-content/uploads/2016/09/Patisserie-Paris-image-7.jpeg");
+}
+
+.parallax-bottom{
+    background-image: url("https://i2.wp.com/www.spainonafork.com/wp-content/uploads/2018/08/cauliflower4-11.png?fit=750%2C750&ssl=1");
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  col{
+      flex: 50%;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-device-width: 576px){
+    .parallax{
+        background-attachment: scroll;
+    }
+}
